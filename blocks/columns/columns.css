@@ -13,10 +13,17 @@
 
 .columns > div > .columns-img-col {
   order: 0;
+  margin-top: 24px;
+  box-shadow: rgb(0 0 0 / 24%) 0 3px 8px;
 }
 
 .columns > div > .columns-img-col img {
   display: block;
+}
+
+.columns .button-container {
+  display: flex;
+  justify-content: center;
 }
 
 @media (width >= 900px) {

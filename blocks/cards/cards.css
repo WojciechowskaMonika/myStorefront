@@ -25,3 +25,29 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* overwriting default styles */
+.cards.informative-section > ul > li {
+  border: none;
+  box-shadow: rgb(0 0 0 / 24%) 0 3px 8px;
+}
+
+.informative-section .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.informative-section .cards-card-body p {
+  margin: 0;
+}
+
+.informative-section .cards-card-body a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.informative-section .cards-card-body .icon {
+  width: 32px;
+  height: 32px;
+}
